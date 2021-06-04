@@ -18,6 +18,8 @@ This was heavily inspired by [Project Discovery's cdncheck](https://github.com/p
 * StackPath
 * Sucuri
 
+If a provider is missing, please open an issue with a link to their IP ranges or ASN
+
 ## Usage
 Download ip ranges for all providers
 ```
@@ -43,5 +45,3 @@ node download --format csv --output ranges.csv
 * txt (default)
 * json
 * csv
-
-If a provider is missing, please open an issue with a link to their IP ranges or ASN

@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^7.2.0",
+    "listr": "^0.14.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
+}

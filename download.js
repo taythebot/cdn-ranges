@@ -8,7 +8,7 @@ const formats = ['txt', 'csv', 'json']
 
 const opts = program
   .description(
-    'A tool to download IP ranges of CDN and PaaS for bug bounties\nCreated by Tay (https://github.com/taythebot)'
+    'A tool to download IP ranges of CDN for bug bounties\nCreated by Tay (https://github.com/taythebot)'
   )
   .version('1.0.0')
   .requiredOption(

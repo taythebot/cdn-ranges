@@ -1,5 +1,5 @@
 # CDN Ranges
-This is a tool to download a list of IP ranges used by CDNs (Cloudflare, Akamai, Incapsula, Fastly, etc). This helps to avoid performing unnecessary port scans when doing bug bounties.
+Tool to download a list of IP ranges used by CDNs (Cloudflare, Akamai, Incapsula, Fastly, etc). This helps to avoid performing unnecessary port scans when doing bug bounties.
 
 This uses publicly available lists of IP ranges, provided by most providers, and [BGPView](https://bgpview.io/) to query IP ranges for ASNs.
 
@@ -36,7 +36,7 @@ Dump in json format
 node download --format json --output ranges.json
 ```
 
-Dump in csv format (provider,range)
+Dump in csv format (format: provider,range)
 ```
 node download --format csv --output ranges.csv
 ```

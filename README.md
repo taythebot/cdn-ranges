@@ -11,11 +11,14 @@ This was heavily inspired by [Project Discovery's cdncheck](https://github.com/p
 * CDNetworks
 * Cloudflare
 * CloudFront
+* DDoS Guard (ddos-guard)
 * Fastly
 * Incapsula
 * Limelight
 * MaxCDN
+* Qrator
 * StackPath
+* StormWall
 * Sucuri
 
 If a provider is missing, please open an issue with a link to their IP ranges or ASN

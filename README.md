@@ -23,6 +23,8 @@ This was heavily inspired by [Project Discovery's cdncheck](https://github.com/p
 
 If a provider is missing, please open an issue with a link to their IP ranges or ASN
 
+![](example.png)
+
 ## Usage
 Download ip ranges for all providers
 ```

@@ -5,5 +5,8 @@ module.exports = async () => {
     'https://ip-ranges.amazonaws.com/ip-ranges.json'
   )
 
-  return data.prefixes.filter(({ service }) => service === 'CLOUDFRONT')
+  return data.prefixes.reduce((arr, { service, ip_prefix }) => {
+    if (service === 'CLOUDFRONT') arr.push(ip_prefix)
+    return arr
+  }, [])
 }

@@ -28,6 +28,20 @@ If a provider is missing, please open an issue with a link to their IP ranges or
 
 ![](example.png)
 
+## Installation
+This code requires Node.js 14.x or higher. I will be providing executables in the near future.
+
+1. Download code
+```
+git clone https://github.com/taythebot/cdn-ranges
+```
+
+2. Install dependencies
+```
+npm install
+```
+
+
 ## Usage
 Download ip ranges for all providers
 ```

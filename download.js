@@ -31,10 +31,10 @@ const opts = program
   )
 
   if (opts.provider) {
-    const invalidProvider = opts.provider.find(
-      (provider) => !providers.includes(provider)
+    const invalidProvider = opts.provider.find((provider) =>
+      providers.includes(provider)
     )
-    if (invalidProvider) {
+    if (!invalidProvider) {
       return console.error(
         `error: '${invalidProvider}' is not a valid provider`
       )
@@ -60,7 +60,8 @@ const opts = program
   let data
   switch (opts.format) {
     case 'csv':
-      data = results
+      data = 'provider,range\n'
+      data += results
         .map(({ provider, range }) => `${provider},${range}`)
         .join('\n')
       break

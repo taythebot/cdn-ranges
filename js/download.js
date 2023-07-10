@@ -18,6 +18,7 @@ const opts = program
   )
   .requiredOption('-o --output <file>', 'output file', 'ranges.txt')
   .option('-p --provider <names...>', 'download a specific provider')
+  .option('-4', '--ipv4')
   .parse()
   .opts()
 

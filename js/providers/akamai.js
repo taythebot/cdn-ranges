@@ -1,5 +1,7 @@
 const bgpView = require('../utils/bgpview')
 
 module.exports = () => {
-  return bgpView('12222')
+  return ['12222', '20940'].map((asn) => {
+    return bgpView(asn)
+  })
 }

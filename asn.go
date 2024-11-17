@@ -46,7 +46,6 @@ func ASNPrefixes(ctx context.Context, asn int) ([]string, []string, error) {
 
 	var response IPGuideResponse
 	if err := json.Unmarshal(resp, &response); err != nil {
-		fmt.Println(string(resp))
 		return nil, nil, fmt.Errorf("failed to perform unmarshal json: %w", err)
 	}
 

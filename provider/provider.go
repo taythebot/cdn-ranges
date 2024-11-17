@@ -20,6 +20,7 @@ var Providers = []Provider{
 	&DDoSGuard{},
 	&Edgecast{},
 	&Edgio{},
+	&F5{},
 	&Fastly{},
 	&GCore{},
 	&Imperva{},

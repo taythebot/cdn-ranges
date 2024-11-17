@@ -14,6 +14,7 @@ var Providers = []Provider{
 	&Akamai{},
 	&Bunny{},
 	&CacheFly{},
+	&CDN77{},
 	&CDNetworks{},
 	&Cloudflare{},
 	&Cloudfront{},

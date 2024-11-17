@@ -37,7 +37,7 @@ If a provider is missing, please open an issue with a link to their IP ranges or
 Go install
 
 ```bash
-go install -v https://github.com/taythebot/cdn-ranges/cmd/cdn-ranges@latest
+go install -v github.com/taythebot/cdn-ranges/cmd/cdn-ranges@latest
 ```
 
 Manual Build

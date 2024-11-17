@@ -19,6 +19,7 @@ var Providers = []Provider{
 	&Cloudfront{},
 	&DDoSGuard{},
 	&Edgecast{},
+	&EdgeNext{},
 	&Edgio{},
 	&F5{},
 	&Fastly{},

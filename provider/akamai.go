@@ -10,7 +10,7 @@ var _ Provider = (*Akamai)(nil)
 
 type Akamai struct{}
 
-var AkamaiAsns = []int{
+var AkamaiASNs = []int{
 	12222,
 	16625,
 	16702,
@@ -61,7 +61,7 @@ func (p *Akamai) Fetch(ctx context.Context) ([]string, []string, error) {
 		v4 []string
 		v6 []string
 	)
-	for _, asn := range AkamaiAsns {
+	for _, asn := range AkamaiASNs {
 		asn_v4, asn_v6, err := cdn_ranges.ASNPrefixes(ctx, asn)
 		if err != nil {
 			return nil, nil, err

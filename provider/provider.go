@@ -12,6 +12,7 @@ type Provider interface {
 
 var Providers = []Provider{
 	&Akamai{},
+	&ArvanCloud{},
 	&Bunny{},
 	&CacheFly{},
 	&CDN77{},

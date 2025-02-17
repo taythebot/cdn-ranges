@@ -41,7 +41,7 @@ func main() {
 	if *providerFlag != "" {
 		var valid bool
 		for _, p := range provider.Providers {
-			if strings.ToLower(p.Name()) == *providerFlag {
+			if strings.ToLower(p.Name()) == strings.ToLower(*providerFlag) {
 				valid = true
 				providers = []provider.Provider{p}
 				break

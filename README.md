@@ -72,7 +72,7 @@ Download IPV6 ranges only
 cdn-ranges -ipv6 -output ranges.txt
 ```
 
-Download for a specific provider (lowercase)
+Download for a specific provider
 
 ```bash
 cdn-ranges -provider cloudflare
